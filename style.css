@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+section{
+    padding-left: calc(10.9vw - 19.2px);
+    
+    
+}
+
+.logo{
+    margin-top: calc(0.33vw + 41.3px);
+    width: calc(9.03vw + 179.2px);
+
+}
+
+.info{
+    margin-top: calc(6.44vw + 2.5px);
+    display: flex;
+    flex-direction: row;
+    gap: calc(14.8vw + 28.4px);
+    flex-wrap:wrap;
+    
+
+}
+
+.info div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+
+h1{
+    margin-top: calc(3.1vw + 35.5px);
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Chava';
+    
+}
+
+
+.par{
+    margin-top: calc(2.2vw + 11px);
+    font-size: 27px;
+    font-weight: 400;
+    
+
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+
+.purple,.white{
+    width: 320px;
+    border-radius: 12px;
+    padding: 20px 0 ;
+    border: 1px solid #6E3ABA;
+    cursor: pointer; 
+
+
+}
+
+.purple{
+    background-color: #6E3ABA;
+    color: white;
+    
+}
+
+
+.white{
+    color: #6E3ABA;
+    background-color: white
+}
+
+.title,.subtitle{
+    font-size: 27px;
+    max-width: 930px;
+    margin-bottom: 20px;
+}
+
+
+
+/* .main{
+    background-image: url(./html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 121 right 58 left 827;
+}
+ */
+
+
+
+.main{
+    background-image: url(./html_css_js\ 1.png);
+    background-position: right 58px top 121px;
+    background-repeat: no-repeat;
+    background-size: 30vw ;
+}
+
+
+.mainpic{
+    margin-top: calc(6.2vw + 15.4px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(6.2vw + 15.4px)
+
+    
+    
+}
+
+.mainpic div{
+
+    width: calc(25.08vw + 228.9px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+
+    
+    
+}
+
+
+h1{
+    font-size: calc(2.7vw + 23.2px) ;
+
+}
+
+
+.text{
+    font-size: calc(1.01vw + 13.9px);
+}
+
+
+.mainpic div img{
+    
+    width: calc(12.09vw + 132.24px);
+
+}
+
+.input{
+    font-size: calc(1.01vw + 13.9px);
+
+}
+
+
+
+.sect{
+    margin-top: 100px;
+    margin: 0;
+    padding: 0;
+    padding-top: calc(4.5vw + 22.1px);
+    background-color:#6E3ABA;
+
+    
+
+}
+
+.discount{
+    font-size: calc(2.03vw + 25.9px);
+    text-align: center;
+    color:white;
+
+}
+
+.timer{
+    margin-top: calc(4.1vw + 3.48px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.title1{
+    font-size: calc(12.8vw + 9.11px);
+    font-family: 'Chava';
+
+}
+
+
+.subtitle1{
+    margin-top: calc(1.9vw + 2.4px);
+    font-size: calc(1.2vw + 2.41px);
+    
+    
+}
+
+
+.card{
+    /* width: calc(22.7vw + 232.2px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wht1{
+    font-size: 18px;
+    margin-top: calc(6.3vw + 8px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.but{
+    width: 328px;
+    background-color: white;
+    border-radius: 12px;
+    height: 61px;
+    margin-bottom: calc(5.3vw + 20px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.courseProgram{
+    margin-top: calc(9.1vw + 43.8px);
+    border: 2px solid black;
+    flex-direction: column;
+    position: relative;
+
+}
+
+h3{
+    margin-left: calc(5.0vw + 1.0px) ;
+    margin-top: calc(2.7vw + 23.2px);
+    font-size: calc(2.7vw + 23.2px);
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+    
+}
+
+
+
+.lessons{
+    padding-left: calc(4.9vw + 0.3px);
+    list-style-type: none;
+    margin: calc(0.5vw + 13.7px);
+    font-size: 21px;
+    line-height: 140%;
+
+}
+
+.lessons li{
+    border-bottom: 1px solid #A1A1A1;
+    padding-bottom: 24px;
+    margin-top: 24px;
+}
+
+
+.btnf{
+    display: block;
+    margin: 0 auto;
+    background-color: #6E3ABA;
+    color: white;
+    width: 320px;
+    border-radius: 12px;
+    padding: 20px 0 ;
+    border: 1px solid #6E3ABA;
+    cursor: pointer;
+}
+
+.btns{
+    display: none;
+    margin: 30px auto 0;
+    background-color: #6E3ABA;
+    color: white;
+    width: 320px;
+    border-radius: 12px;
+    padding: 20px 0 ;
+    border: 1px solid #6E3ABA;
+    cursor: pointer;
+}
+
+@media (max-width: 500px){
+    .btnf{
+        display: none;
+    }
+
+    .btns{
+        display: block;
+    }
+
+}
+
+
+.jeneferlopez{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
